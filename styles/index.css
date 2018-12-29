@@ -38,8 +38,19 @@ div.social-links {
 div.social-links > a {
     color: #343a40;
     text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 div.social-links > a:hover {
     color: #6c757d;
+}
+
+.btn-primary {
+	background-color: #343a40;
+	border-color: #343a40;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+	background-color: #6c757d;
+	border-color: #6c757d;
 }
