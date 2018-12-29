@@ -2,6 +2,14 @@ body {
 	background-color: #d2e8da;
 }
 
+* {
+	font-family: 'Libre Baskerville', serif;
+}
+
+label {
+	font-weight: bold;
+}
+
 div.container {
 	background-color: white;
 }
@@ -54,3 +62,15 @@ div.social-links > a:hover {
 	background-color: #6c757d;
 	border-color: #6c757d;
 }
+
+img.vine {
+	height: 5rem; 
+	margin: 1.5rem auto;
+	display: block;
+}
+
+img.leaves {
+	height: 2.5rem;
+	margin-top: -0.9rem;
+}
+	
