@@ -1,6 +1,38 @@
+body {
+	background-color: #d2e8da;
+}
+
+div.container {
+	background-color: white;
+}
+
+div.kristine {
+	flex: 1;
+	background: url(../assets/kristine.jpg) center no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+@media (min-width: 576px) {
+	div.container {
+		width: 70%;
+	}
+	
+	div.kristine {
+	    height: 400px;
+	}
+}
+
+img.icon {
+	width: 300px;
+	margin: 2rem auto;
+	display: block;
+}
+
 div.social-links {
     font-size: 0.8rem;
-    margin-top: 2rem;
+    margin: 2rem auto;
+	text-align: center;
 }
 
 div.social-links > a {
