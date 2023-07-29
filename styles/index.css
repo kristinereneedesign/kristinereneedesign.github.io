@@ -35,6 +35,16 @@ div.kristine {
 	}
 }
 
+div.icon-container {
+	margin: 1rem auto 2rem auto;
+}
+
+div.icon-container h1 {
+	font-size: 1.8rem;
+	text-align: center;
+	color: #78624D;
+}
+
 img.icon {
 	width: 300px;
 	margin: 1rem auto;
