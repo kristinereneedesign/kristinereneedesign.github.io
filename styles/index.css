@@ -6,6 +6,10 @@ body {
 	font-family: 'Libre Baskerville', serif;
 }
 
+p {
+	color: #78624D;
+}
+
 label {
 	font-weight: bold;
 }
@@ -33,7 +37,7 @@ div.kristine {
 
 img.icon {
 	width: 300px;
-	margin: 2rem auto;
+	margin: 1rem auto;
 	display: block;
 }
 
@@ -44,13 +48,13 @@ div.social-links {
 }
 
 div.social-links > a {
-    color: #343a40;
+    color: #78624D;
     text-decoration: none;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 div.social-links > a:hover {
-    color: #6c757d;
+    color: #8C7662;
 }
 
 .btn-primary {
